@@ -1,0 +1,11 @@
+.\build\obj\uart0.o: src\UART\uart0.c
+.\build\obj\uart0.o: src\UART\uart.h
+.\build\obj\uart0.o: C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h
+.\build\obj\uart0.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\build\obj\uart0.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\build\obj\uart0.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\build\obj\uart0.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\build\obj\uart0.o: C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+.\build\obj\uart0.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\build\obj\uart0.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\build\obj\uart0.o: src\UART\command.h

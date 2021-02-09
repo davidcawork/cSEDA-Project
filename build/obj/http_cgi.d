@@ -1,0 +1,11 @@
+.\build\obj\http_cgi.o: src\TCP-IP\HTTP_CGI.c
+.\build\obj\http_cgi.o: src\TCP-IP\tcp.h
+.\build\obj\http_cgi.o: C:\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h
+.\build\obj\http_cgi.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\build\obj\http_cgi.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\build\obj\http_cgi.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\build\obj\http_cgi.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\build\obj\http_cgi.o: C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+.\build\obj\http_cgi.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\build\obj\http_cgi.o: C:\Keil\ARM\RV31\INC\RTL.h
+.\build\obj\http_cgi.o: C:\Keil\ARM\RV31\INC\Net_Config.h

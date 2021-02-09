@@ -1,0 +1,9 @@
+.\build\obj\lpc17xx_clkpwr.o: src\LCD\lpc17xx_clkpwr.c
+.\build\obj\lpc17xx_clkpwr.o: src\LCD\lpc17xx_clkpwr.h
+.\build\obj\lpc17xx_clkpwr.o: C:\Keil\ARM\Inc\NXP\LPC17xx\lpc17xx.h
+.\build\obj\lpc17xx_clkpwr.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\build\obj\lpc17xx_clkpwr.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\build\obj\lpc17xx_clkpwr.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\build\obj\lpc17xx_clkpwr.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\build\obj\lpc17xx_clkpwr.o: C:\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+.\build\obj\lpc17xx_clkpwr.o: src\LCD\lpc_types.h
