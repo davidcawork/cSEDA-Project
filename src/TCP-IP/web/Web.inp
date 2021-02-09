@@ -1,0 +1,1 @@
+index.cgi, header.inc, mid.inc, temp1.inc, humedad.inc, viento.inc, temp2.inc, presion.inc, umbral.inc, footer.inc  to web.c nopr root(.\src\TCP-IP\web\)
