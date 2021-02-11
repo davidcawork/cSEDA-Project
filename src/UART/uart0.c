@@ -64,7 +64,7 @@ void uart0_getCommand(char * buffer_RX){
 		case UART_TX_CMD:
 			memset(uart0_tx_buffer, 0, sizeof uart0_tx_buffer);
 			if(!strcmp(buffer_RX, CMD1)){
-				sprintf(uart0_tx_buffer, CMD1_FRMT, temperatura, 176, humedad, veloc_viento);
+				sprintf(uart0_tx_buffer, CMD1_FRMT, temperatura, 176, humedad, veloc_viento, temperatura2, 176,presion);
 			}
 			else if(!strcmp(buffer_RX, CMD2)){
 				sprintf(uart0_tx_buffer, CMD2_FRMT,umbral_temperatura, 176);

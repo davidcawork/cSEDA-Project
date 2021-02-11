@@ -26,7 +26,7 @@
 #define CMD_INIT "Bienvenido a la estacion meteorologica de la UAH\r\rIntroduzca un comando: (Escriba HELP para ver los comandos)\r"
 
 #define CMD1 "GET DATA\r"
-#define CMD1_FRMT "[+] Temperatura: %g %c C\r[+] Humedad: %g %%\r[+] Viento: %g rpm\r"
+#define CMD1_FRMT "[+] Temperatura: %g %c C\r[+] Humedad: %g %%\r[+] Viento: %g rpm\r[+] Temperatura (Digital): %g %c C\r[+] Presion: %g %%\r"
 #define CMD2 "GET ALARM\r"
 #define CMD2_FRMT "[+] Umbral temperatura: %g %c C\r"
 #define CMD3 "SET ALARM\r"

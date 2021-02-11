@@ -25,14 +25,14 @@ void representar_const_LCD (void) //Representa todo lo constante (NOMBRES Y LINE
 	drawString(130, 10, "HUMEDAD", WHITE, BLACK, MEDIUM);
 	drawString(130, 30, "(porcentaje)", WHITE, BLACK, SMALL);
 	
-	drawString(10, 70, "VELOCIDAD VIENTO", WHITE, BLACK, MEDIUM);
-	drawString(10, 90, "(rpm)", WHITE, BLACK, SMALL);
+	drawString(10, 85, "VELOCIDAD VIENTO", WHITE, BLACK, MEDIUM);
+	drawString(10, 105, "(rpm)", WHITE, BLACK, SMALL);
 
-	drawString(10, 140, "TEMP EXT", WHITE, BLACK, MEDIUM);
-	drawString(10, 160, "(grados)", WHITE, BLACK, SMALL);
+	drawString(10, 160, "TEMP EXT", WHITE, BLACK, MEDIUM);
+	drawString(10, 180, "(grados)", WHITE, BLACK, SMALL);
 	
-	drawString(130, 140, "PRESION", WHITE, BLACK, MEDIUM);
-	drawString(130, 160, "(porcentaje)", WHITE, BLACK, SMALL);
+	drawString(130, 160, "PRESION", WHITE, BLACK, MEDIUM);
+	drawString(130, 180, "(atm)", WHITE, BLACK, SMALL);
 	
 	drawString(10, 250, "Umbral temperatura:", WHITE, BLACK, SMALL);
 	drawString(10, 265, "Ventilador: OFF", WHITE, BLACK, SMALL);
@@ -56,10 +56,10 @@ void representar_temp_hum(int ventilador, int alarma) //Representa las variables
 	drawString(130, 55, array, WHITE, BLACK, SMALL);		//Muesta valor humedad
 	
 	sprintf(array, "%2.2f", temperatura2);
-	drawString(10, 190, array, WHITE, BLACK, SMALL);			//Muestra valor temperatura
+	drawString(10, 210, array, WHITE, BLACK, SMALL);			//Muestra valor temperatura
 	
 	sprintf(array, "%2.2f", presion);
-	drawString(130, 190, array, WHITE, BLACK, SMALL);		//Muesta valor humedad
+	drawString(130, 210, array, WHITE, BLACK, SMALL);		//Muesta valor presion
 
 	sprintf(array, "%2.0f", umbral_temperatura);					//Muestra umbral de temperatura
 	drawString(180, 250, array, WHITE, BLACK, SMALL);
@@ -77,9 +77,9 @@ void representar_temp_hum(int ventilador, int alarma) //Representa las variables
 
 void representar_viento(void)
 {
-	drawString(10, 115, "borrando", BLACK, BLACK, SMALL);		//Muestra valor velocidad viento
+	drawString(10, 135, "borrando", BLACK, BLACK, SMALL);		//Muestra valor velocidad viento
 	
 	sprintf(array, "%3.2f", veloc_viento);
-	drawString(10, 115, array, WHITE, BLACK, SMALL);		//Muestra valor velocidad viento
+	drawString(10, 135, array, WHITE, BLACK, SMALL);		//Muestra valor velocidad viento
 }
 
